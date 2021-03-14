@@ -1,0 +1,28 @@
+#JavaBlock{
+    border: 2px solid;
+    background-color: lightblue;
+    color: red;
+    padding: 100px;
+}
+#PythonBlock{
+    border: 2px solid;
+    background-color: sienna;
+    color: springgreen;
+    padding: 100px;
+}
+#JavaScriptBlock{
+    border: 2px solid;
+    background-color:wheat;
+    color: red;
+    padding: 100px;
+}
+body{
+    display: flex;
+}
+button{
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    background-color: springgreen;
+    
+}

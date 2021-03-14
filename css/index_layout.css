@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*---------Heading & Footer------*/
+header, footer{
+    background-color: lightgreen;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 8px;
+}
+/*----Navigation Bar*/
+nav{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding: 12px;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+/*-----------section----*/
+section{
+    border: 2px solid black;
+    overflow: auto;
+}
+section article{
+    background-color: crimson;
+    height: 400px;
+    width: 65%;
+    float: left;
+}
+section aside{
+    background-color: lightskyblue;
+    height: 400px;
+    width: 35%;
+    float: right;
+}
+/*-----------main----*/
+main{
+    background-color: lightcoral;
+    height: 300px;
+    border: 2px solid black;
+}

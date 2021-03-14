@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    float: right;
+}
+.header a, .header button{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.header button{
+    background: #4484f1;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.main{
+    text-align: center;
+}
+.logo-img img{
+    width: 500px;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 150px;
+}
+.search-box input{
+    width: 664px;
+    height: 42px;
+}
+.btn button{
+    width: 125px;
+    height: 36px;
+    margin-top: 30px;
+}
+.country{
+    margin-top: 160px
+}
+.fotter-left{
+    float: left;
+}
+.fotter-right[
+    
+]

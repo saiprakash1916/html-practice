@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <input type="radio" id="male" name="Gender"/> Male
+        <input type="radio" id="Female" name="Gender"/> Female
+        <hr>
+        <label for="skills">Add skills</label>
+        <input type="checkBox" name="skills" id="skills" checked> Java
+        <input type="checkBox" name="skills" id="skills"> Python
+        <input type="checkBox" name="skills" id="skills"> Html
+        <input type="checkBox" name="skills" id="skills"> CSS
+        <hr>
+        <select name="skills">
+            <option value="java">java</option>
+            <option value="Html">Html</option>
+            <option value="python">python</option>
+            <option value="css">CSS</option>
+            <option value="nodejs">nodejs</option>
+            <option value="js">js</option>
+        </select>
+        <hr>
+        <input type="text" list="names">
+        <datalist id="names">
+            <option value="sai">
+            <option value="prakash">
+            <option value="chinni">
+            <option value="saiprakash">
+        </datalist>
+    </form>
+</body>
+</html>
